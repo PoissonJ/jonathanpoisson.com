@@ -1,0 +1,298 @@
+/*Overall*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  margin: 0; /*//clears the headline margin: */
+  
+}
+
+body {
+  background-color: #FFA70D;
+}
+.container {
+  padding: 75px 100px 0px 100px;
+}
+
+.page h2 {
+  text-align: center;
+  margin-top:15px;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+ul {
+  margin: 15px 0;
+}
+
+/*Nav Bar Header (My Name)*/
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    /*width: 100%;*/
+    margin-bottom: 5px;
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-brand {
+  float:none;
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+}
+
+
+
+/*Nav Bar*/
+.navbar {
+  background-color: #1E90FF
+
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  padding-bottom: 30px;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+  clear: both;
+}
+.navItem {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 18px;
+  background-color: black;
+  width: 20px;
+  border-radius: 20px; 
+  font-family: "Roboto Slab", sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navItem:hover {
+  background-color:orange;
+}
+
+
+
+
+
+/*About Page*/
+#about {
+  margin-top: 200px;
+  background-color: #FFA500;
+  background-image: linear-gradient(to bottom, #FFA500, #FFB6C1);
+  padding-bottom: 15px;
+}
+
+#about p {
+
+  font-family: "Roboto slab", sans-serif;
+  font-size: 17px;
+
+
+}
+
+
+/*Resume Page*/
+#resume {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #E4D29D, #cdae50);
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+#resume h2 {
+  margin-top: -10px;
+}
+#resumeSkills {
+  list-style-type: none;
+}
+#resumeSkills li {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+
+/*Projects Page*/
+#projects {
+ background-image: linear-gradient(to bottom, #00FA9A, #6B8E23);
+ padding-bottom: 30px;
+}
+.projectDescription {
+  text-align: left !important;
+  font-size: 20px;
+}
+#projects h3 {
+  font-size: 40px;
+  margin-bottom: 18px;
+}
+#projects p , #projects h3, #projects h4 {
+  text-align: center;
+  font-family: "Roboto slab", sans-serif;
+
+}
+#projects p {
+  font-size: 17px;
+}
+#projects ul {
+  font-family: "Roboto slab", sans-serif;
+  font-size: 17px;
+  text-align: left;
+}
+#projects ul li {
+  margin-bottom: 15px;
+}
+applet {
+    z-index: -10000;
+}
+
+
+/*Inspiration Page*/
+ #inspiration {
+ background-image: linear-gradient(to bottom, #00FFFF, #FF4500);
+}
+#inspiration h2 {
+  margin-bottom: 70px;
+}
+#inspiration span {
+  padding: 25px;
+  font-size: 16px;
+  
+}
+#inspiration div {
+ 
+ padding-bottom: 35px;
+}
+#inspiration p {
+  font-size: 16px;
+  font-weight: bold;
+}
+#inspiration .col-sm-12 {
+  text-align: center;
+}
+
+
+
+
+/*Contact Page*/
+#contact {
+  padding-bottom: 100px;
+  
+  background-color: #7FFFD4;
+}
+
+#contact a img{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  height:50px;
+  width:50px;
+  vertical-align: middle;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  /*position: relative;*/
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  
+}
+.footer {
+  position: absolute;
+  min-width: 100%;
+  bottom: 5;
+  padding-bottom: 140px;
+  height: 10px;
+  background-color: #1E90FF;
+}
+#footerInfo {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+  margin-left: -20px;
+}
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (max-width: 667px)
+  
+   { 
+    /*Nav Bar Header (My Name)*/
+  .html {}
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+.navbar-brand {
+  float:none;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  
+}
+html body nav.navbar.navbar-default.navbar-fixed-top div.container div.navbar-header.col-xs-12 button {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -30px;
+
+}
+.navItem {
+  font-size: 12px;
+
+}
+div .collapse {
+  margin: auto;
+  background-size: auto;
+}
+
+}
+@media only screen
+and (max-width: 1180px) {
+  .nav {
+    
+  }
+  .navItem {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
